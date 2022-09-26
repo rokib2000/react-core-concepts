@@ -31,7 +31,7 @@ function ExternalUser() {
 
 function User(props) {
   return (
-    <div>
+    <div style={{ border: "2px solid red", margin: "20px" }}>
       <h3>Name: {props.name}</h3>
       <p>Email: {props.email}</p>
     </div>
